@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+</head>
+<body>
+   <div class="header" id="home">
+      <nav class="navbar">
+          <div class="logo">Logo</div>
+          <a href="#" class="toggle-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about us">About us</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+          </div>
+      </nav>
+        <div class="content-section">
+            <h1>Web Design</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            <div class="button ">
+                <a href="">Join Now</a>
+
+        </div>
+
+      </div>
+   </div>
+
+
+   <script type="text/javascript">
+        const togglebtn = document.getelementByclassname("toggle-btn")[0]
+        const navmenu =  document.getelementByclassname("nav-menu")[0]
+        toggleBtn.addeventlistner("click", () =>{
+            navmenu.classlift.toggle("active")
+        })
+
+   </script>
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <section class="container pt-5 mb-3" id="services">
+       <h1 class="h3 block-title text-center"><strong>Our Services </strong></h1>
+       <div class="row pt-5 mt-30">
+           
+           <div class="col-lg-6 col-sm-6 mb-30 pb-5">
+               <a class="card" href="#">
+                   <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-user-circle-o fa-3x head-icon"></i></div>
+                   <div class="card-body text-center">
+                       <h3 class="card-title pt-1">Web &amp; UI Design</h3>
+                       <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                   </div>
+               </a>
+           </div>
+           <div class="col-lg-6 col-sm-6 mb-30 pb-5">
+               <a class="card" href="#">
+                   <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-address-book fa-3x head-icon"></i></div>
+                   <div class="card-body text-center">
+                       <h3 class="card-title pt-1">Front-End Development</h3>
+                       <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                   </div>
+               </a>
+           </div>
+           <div class="col-lg-6 col-sm-6 mb-30 pb-5">
+               <a class="card" href="#">
+                   <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-car fa-3x head-icon"></i></div>
+                   <div class="card-body text-center">
+                       <h3 class="card-title pt-1">Back-End Development</h3>
+                       <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                   </div>
+               </a>
+           </div>
+           <div class="col-lg-6 col-sm-6 mb-30 pb-5">
+               <a class="card" href="#">
+                   <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-image fa-3x head-icon"></i></div>
+                   <div class="card-body text-center">
+                       <h3 class="card-title pt-1">SEO Optimization</h3>
+                       <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                   </div>
+               </a>
+           </div>
+       </div>
+   </section>
+  
+   <section class="py-3 py-md-5" id="about us">
+        <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+                    <div class="col-12 col-lg-6 col-xl-5">
+                        <img class="img-fluid rounded" loading="lazy" src="women group.jpeg" alt="About 1">
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="row justify-content-xl-center">
+                            <div class="col-12 col-xl-11">
+                            <h2 class="mb-3">About us</h2>
+                            <p class="lead fs-4 text-secondary mb-3">I'm developer/designer duo creating high-quality design/code resources for developers, makers, and startups.Here you will find different web development mini projects which are made up of HTML, CSS & little bit of JavaScript. Do you have any such small project which is not already in the List!?.</p>
+                            </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+  </section>
+
+    <div class="container">
+        <div class="spacer"></div>
+        <div class="container d-flex justify-content-between py-4">
+            <h5 class="my-auto"> Copyright& Hifza Tasneem 2024</h5>
+            <ul class="nav flex-column flex-sm-row">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home"><strong>Home</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about us"><strong>About me</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services"><strong>Our Services</strong></a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="spacer"></div>
+    </div>
+
+  
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+   
+</body>
+</html>

@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Robotic',sans-serif ;
+}
+.header{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(10, 0, 0, 0.45) , rgba(0, 0, 0, 0.45)), url("laptop.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+    
+    justify-content: space-between;align-items: center;
+    padding: 10px 60px;
+}
+.navbar .logo{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu ul li{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fffcfc;
+}
+.nav-menu ul li:hover{
+    background-color: #fc9003;
+    transition: 0.5s,ease;
+}
+.toggle-btn{
+    position: absolute;
+    top: 28px;
+    right: 60px;
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 32px;
+}
+.toggle-btn.bar{
+    height: 4px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.content-section{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0px 60px;
+}
+.content-section h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+}
+.content-section p{
+    color: #ffffff;
+    font-size: 19px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.content-section .button a{
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    background-color: #e07228;
+    border-radius: 50px;
+    padding: 14px 25px;
+    letter-spacing: 1.5;
+
+}
+.content-section .button a:hover{
+    background-color: #9dd153;
+    transition: 0.5s ease;
+
+}
+
+   body{
+    margin-top:20px;
+    background:#777676;
+}
+.card::after {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: 35px;
+    background-color: #8b2929;
+    -webkit-box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    content: '';
+    z-index: -1;
+}
+a.card {
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    background-color: #884c4c;
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #7e7676;
+    background-clip: border-box;
+    border: 1px solid rgba(26, 24, 24, 0.125);
+    border-radius: .25rem;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 12px 20px 1px rgba(48, 46, 46, 0.09) !important;
+    box-shadow: 0 12px 20px 1px rgba(34, 34, 34, 0.09) !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.bg-white {
+    background-color: #fcf3f3 !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.d-block {
+    display: block !important;
+}
+img, figure {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.card-text {
+    padding-top: 12px;
+    color: #1d1010;
+}
+
+.text-sm {
+    font-size: 12px !important;
+}
+p, .p {
+    margin: 0 0 16px;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pt-1, .py-1 {
+    padding-top: .25rem !important;
+}
+
+.head-icon{
+    margin-top:18px;
+    color:#ac5d3c
+}
